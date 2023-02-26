@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Sign Up Page</title>
+        <header><b><h1>Sign Up Page</h1></b></header>
+    </head>
+
+  <form action="ConfirmSignup.php" method="post" name="signup" id="signup">
+
+    <body>
+        <br><br>
+
+        <div>
+            <nav>
+                <a href="ProjectHome.html">Home</a>&nbsp;&nbsp;&nbsp;
+                <a href="About.html">About</a>&nbsp;&nbsp;&nbsp;
+                <a href="Questions.html">Questions</a>
+            </nav>
+        </div>
+
+        <div>
+            <br><br>Please enter the information below.<br><br>
+            First Name<input type="text" name="Fname" id="Fname" required>*<br><br>
+            Last Name<input type="text" name="Lname" id="Lname"><br><br>
+
+            Gender<br>
+            <select id="Gender">
+                <option value="&nbsp;">&nbsp;</option>
+                <option value="male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Rather not say">Rather not say</option>
+            </select><br><br>
+
+            E-mail<input type="text" name="email" id="email" required>*<br><br>
+                <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone" id="phone" maxlength="10" size="10" required>*<br><br>
+            Username<input type="text" name="username" id="username" required>*<br><br>
+            Password<input type="password" name="password" id="password" requiered>*<br><br>
+        </div>
+    </body>
+
+    <footer>
+        <div>
+                <input type="submit" name="submitbutton" id="submitbutton" value="Sign-Up">
+                <input type="reset" name="resetbutton" id="resetbutton" value="Reset">
+
+                <h2>Thankyou for your time!</h2>
+        </div>
+    </footer>
+
+  </form>
+</html>
